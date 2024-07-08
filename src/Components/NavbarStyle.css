@@ -1,0 +1,147 @@
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A1A40;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(255, 125, 41, 0.5);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+   position: relative;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition:0.3s ease-in-out;
+    text-transform:uppercase;
+}
+#navbar li a:hover{
+    color: #FF7D29;
+} */
+/* Tablet view */
+/* @media (max-width: 768px) {
+  nav {
+      padding: 20px 40px;
+  }
+
+  #navbar li {
+      padding: 0 20px;
+  }
+
+  #navbar li a {
+      font-size: 1.1rem;
+  }
+} */
+
+/* Mobile view */
+/* @media (max-width: 480px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 20px;
+  }
+
+  #navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #navbar li {
+      padding: 10px 0;
+  }
+
+  #navbar li a {
+      font-size: 0.7rem;
+  }
+}  */
+
+/* NavbarStyle.css */
+
+/* NavbarStyle.css */
+
+/* Desktop view */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A1A40;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(255, 125, 41, 0.5);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+#navbar li a:hover {
+    color: #FF7D29;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    nav {
+        padding: 20px 40px;
+    }
+
+    #navbar li {
+        padding: 0 20px;
+    }
+
+    #navbar li a {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar li {
+        padding: 10px 0;
+    }
+
+    #navbar li a {
+        font-size: 0.7rem;
+    }
+}
+
